@@ -16,11 +16,10 @@
     visibility: hidden;
 }
 
-.face::after {
+.face::after  {
     visibility: visible;
-    content: ":|";
-}
-
-.face:hover::after {
     content: ":)";
+}
+.face:active::after {
+    content: ";)";
 }
