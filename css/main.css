@@ -30,3 +30,7 @@
 .face:hover::after {
     content: ":)";
 }
+
+.face:active::after {
+    content: ";)";
+}
